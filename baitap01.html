@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fakebook</title>
     <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/2048px-2023_Facebook_icon.svg.png"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -34,7 +39,7 @@
               src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/hinh-anh-avatar-luffy.jpg"
               alt=""
             />
-            <span>Alexsandra Kehl</span>
+            <span>Monkey D Luffy</span>
             <div class="item">Create</div>
             <div class="item">Home</div>
           </li>
@@ -55,7 +60,7 @@
       <main class="main">
         <div class="main-left">
           <ul class="first-group">
-            <li>
+            <li class="active">
               <i class="fa-regular fa-newspaper"></i>
               <span>News Feed</span>
             </li>
@@ -111,7 +116,7 @@
                 <input
                   class="second-input"
                   type="text"
-                  placeholder="What's on your mind. Alexandra?"
+                  placeholder="What's on your mind. Luffy?"
                 />
               </li>
             </ul>
@@ -143,26 +148,66 @@
                 <div class="post-header-left">
                   <img
                     class="image item-image"
-                    src="https://khoinguonsangtao.vn/wp-content/uploads/2022/08/hinh-anh-avatar-luffy.jpg"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3528a2b6-f737-42d0-a9f7-79fb24c09acf/d52pntz-416f1ac6-e68d-499f-970e-03b4c6bb9d3c.jpg/v1/fit/w_725,h_775,q_70,strp/one_piece_roronoa_zoro_3_by_adonis90_d52pntz-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzc1IiwicGF0aCI6IlwvZlwvMzUyOGEyYjYtZjczNy00MmQwLWE5ZjctNzlmYjI0YzA5YWNmXC9kNTJwbnR6LTQxNmYxYWM2LWU2OGQtNDk5Zi05NzBlLTAzYjRjNmJiOWQzYy5qcGciLCJ3aWR0aCI6Ijw9NzI1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.6fg_yV3lxiI8OUN2bsaTSFRzixhEsTD1Ee-uygaJafQ"
                     alt=""
                   />
                   <div>
-                    <b>Monkey D Luffy</b>
+                    <b style="color: black">Roronoa Zoro</b>
                     <p>9 minutes ago</p>
                   </div>
                 </div>
                 <div class="post-header-right">
-                  <i class="fa-solid fa-ellipsis"></i>
+                  <i style="font-size: 25px" class="fa-solid fa-ellipsis"></i>
                 </div>
               </div>
-              <div class="post-content">Hàng nóng!</div>
+              <div class="post-content">Anh và kiếm <3</div>
+              <div class="img-container">
+                <div class="img-2"></div>
+                <div class="img-2"></div>
+                <div class="img-2"></div>
+              </div>
+              <ul class="post-interact">
+                <li style="color: black">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <span>321</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-message"></i>
+                  <span>999</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-share"></i>
+                  <span>88</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="maincontent-second">
+            <div class="post-container">
+              <div class="post-header">
+                <div class="post-header-left">
+                  <img
+                    class="image item-image"
+                    src="https://avatarfiles.alphacoders.com/856/85667.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <b style="color: black">Nami</b>
+                    <p>1 hours ago</p>
+                  </div>
+                </div>
+                <div class="post-header-right">
+                  <i style="font-size: 25px" class="fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+              <div class="post-content">Hôm nay các anh đã ngủ chưa ?</div>
               <div class="img-container">
                 <div class="img-1"></div>
                 <div class="img-1"></div>
                 <div class="img-1"></div>
               </div>
               <ul class="post-interact">
-                <li>
+                <li style="color: black">
                   <i class="fa-solid fa-thumbs-up"></i>
                   <span>1000</span>
                 </li>
@@ -178,7 +223,67 @@
             </div>
           </div>
         </div>
-        <div class="main-right">Right</div>
+        <div class="main-right">
+          <div class="stories-container">
+            <ul class="post-stories">
+              <li><b>Stories</b></li>
+              <li>See all</li>
+            </ul>
+            <div class="avt-container">
+              <ul class="post-avt">
+                <li>
+                  <div class="item-image1 img-add">+</div>
+                </li>
+                <li>
+                  <img
+                    class="item-image1"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3528a2b6-f737-42d0-a9f7-79fb24c09acf/d52pntz-416f1ac6-e68d-499f-970e-03b4c6bb9d3c.jpg/v1/fit/w_725,h_775,q_70,strp/one_piece_roronoa_zoro_3_by_adonis90_d52pntz-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzc1IiwicGF0aCI6IlwvZlwvMzUyOGEyYjYtZjczNy00MmQwLWE5ZjctNzlmYjI0YzA5YWNmXC9kNTJwbnR6LTQxNmYxYWM2LWU2OGQtNDk5Zi05NzBlLTAzYjRjNmJiOWQzYy5qcGciLCJ3aWR0aCI6Ijw9NzI1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.6fg_yV3lxiI8OUN2bsaTSFRzixhEsTD1Ee-uygaJafQ"
+                    alt=""
+                  />
+                </li>
+                <li>
+                  <img
+                    class="item-image1"
+                    src="https://i1.sndcdn.com/avatars-JWQrzt7pKYitrk9z-zgPlGg-t500x500.jpg"
+                    alt=""
+                  />
+                </li>
+                <li>
+                  <img
+                    class="item-image1"
+                    src="https://avatarfiles.alphacoders.com/856/85667.jpg"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="item-image2">
+            <div><b>Recently Viewed</b></div>
+            <div class="img3-container">
+              <div class="img-3"></div>
+              <div class="img-3"></div>
+            </div>
+            <div class="img3-container">
+              <div class="img-3"></div>
+              <div class="img-3"></div>
+            </div>
+          </div>
+          <div class="item-image3">
+            <div class="post-image3-group">
+              <ul class="post-image3">
+                <li><b>Sponsored</b></li>
+                <li>Creat All</li>
+              </ul>
+            </div>
+            <!-- <div class="img-4"></div> -->
+            <img
+              class="img-4"
+              src="https://wow.fan/cdn/shop/products/15408-image-1.jpg?v=1686210925"
+              alt=""
+            />
+          </div>
+        </div>
       </main>
     </div>
   </body>
