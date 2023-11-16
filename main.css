@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.driven {
+    border: 1px solid #dadada;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #fff;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px;
+    align-items: center;
+}
+
+.icon {
+    font-size: 35px;
+    color: #004999;
+}
+
+.search-area {
+    align-items: center;
+    position: relative;
+    width: 500px;
+}
+
+.icon-search {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
+
+.input {
+    height: 36px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    outline: none;
+    padding: 0 16px;
+}
+
+.list-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.list-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.item-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.item-color {
+    color: #99caff;
+}
+
+.item-color1 {
+    color: #eeeeee;
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+    height: 600px;
+}
+
+.main-left {
+    flex: 1;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+    font-size: 16px;
+    color: #616161;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.first-group {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.second-group {
+    color: #000;
+    font-size: 14px;
+}
+
+.main-content {
+    flex: 3;
+    background-color: #fff;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.input-comment {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 16px;
+}
+
+.input-comment li:last-child {
+    flex: 1;
+}
+
+
+
+.maincontent-first {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    width: auto
+}
+
+.main-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    color: #616161;
+    padding-top: 10px;
+}
+
+
+
+.maincontent-second {
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    flex: 2;
+    padding: 20px 24px;
+}
+
+
+.second-input {
+    height: 56px;
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header-left {
+    display: flex;
+    gap: 8px;
+    align-items: center; 
+}
+
+.post-content {
+    padding: 16px 0;
+}
+
+.img-container {
+    display: flex;
+    gap: 8px;
+}
+
+.img-1:first-child {
+    background-image: url("https://demoda.vn/wp-content/uploads/2022/12/hinh-anh-nami-anime-dep-net.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    flex: 1;
+    border-radius: 8px;
+    line-height: 200px;
+}
+
+.img-1:nth-child(2) {
+    background-image: url("https://thuthuatnhanh.com/wp-content/uploads/2022/12/anh-nami-dao-hai-tac-xinh-dep-nhat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    flex: 1;
+    border-radius: 8px;
+    line-height: 200px;
+}
+
+.img-1:last-child{
+    background-image: url("https://toigingiuvedep.vn/wp-content/uploads/2022/12/hinh-anh-nami-xinh-dep-lam-hinh-nen-dien-thoai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    flex: 1;
+    border-radius: 8px;
+    line-height: 200px;
+}
+
+.img-1:last-child::after {
+    content: "+3";
+    color: #fff;
+    font-size: 30px;
+}
+ 
+.post-interact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.main-right {
+    flex: 2;
+    background-color: #e0e0;
+}
